@@ -12,5 +12,5 @@ Dumps a mysql database to a file, zips it and uploads it to your AWS S3 Bucket
 
 ## Requirements
 * python 3
-* 7zip
-* boto3 (installed through pip)
+* 7zip (apt-get install p7zip-full)
+* boto3 (pip3 install boto3)
