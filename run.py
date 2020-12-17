@@ -9,7 +9,7 @@ from datetime import datetime
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='Dumps a mysql database to a'\
-								'file, zips it and uploads it to Google Drive.')
+								'file, zips it and uploads it to AWS S3.')
 	parser.add_argument('-c', '--config', required=False, help='path to a config file')
 	parser.add_argument('-d', '--database', required=False, help='database name')
 	parser.add_argument('-u', '--user', required=False, help='mysqldump user')
